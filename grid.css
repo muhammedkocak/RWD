@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1200px 1fr;
+    grid-template-rows: 20px 750px 20px;
+    background-color: blue;
+    
+
+    
+}
+.gridcontainer {
+    display: grid;
+    grid-area: 2/2;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: aqua;
+    
+    
+}
